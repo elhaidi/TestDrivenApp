@@ -1,11 +1,11 @@
-FROM python3.7
+FROM python:3.7
 
-# set the working directory
+#set the working directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # add requirements
-COPY ./requirements.txt /usr/src/app/requirements.txtt
+COPY ./requirements.txt /usr/src/app/requirements.txt
 
 # install requirements
 RUN pip install -r requirements.txt
