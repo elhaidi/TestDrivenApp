@@ -1,4 +1,4 @@
-Flask==1.0
+Flask==2.3.2
 Werkzeug==0.16
 Flask-SQLAlchemy==2.3.2
 psycopg2==2.7.3.2
